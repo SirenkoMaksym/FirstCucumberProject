@@ -111,25 +111,7 @@ public class LetCarWorkPage extends BasePage {
     public LetCarWorkPage addPhotosAvto(String name) {
         clickWithRectangle(photos, 3, 3);
         pause(1000);
-      photos.sendKeys(name);
-        /*  Robot robot = null;
-        try {
-            robot = new Robot();
-        } catch (AWTException e) {
-            throw new RuntimeException(e);
-        }
-        robot.keyPress(KeyEvent.VK_SHIFT);
-        robot.keyPress(KeyEvent.VK_D);
-        robot.keyRelease(KeyEvent.VK_SHIFT);
-        robot.keyRelease(KeyEvent.VK_D);
-        pause(1000);
-        robot.keyPress(KeyEvent.VK_DOWN);
-        pause(1000);
-        robot.keyPress(KeyEvent.VK_DOWN);
-        robot.keyPress(KeyEvent.VK_ENTER);
-
-         */
-
+        photos.sendKeys(name);
 
         return this;
     }

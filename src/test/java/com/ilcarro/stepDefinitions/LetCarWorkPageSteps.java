@@ -34,7 +34,7 @@ public class LetCarWorkPageSteps {
                 .enterSeats("7")
                 .enterClassAvto("S")
                 .enterNumberAvto("AH7774EX")
-                .enterPrice("599.999.00€")
+                .enterPrice("599.999€")
                 .enterAboutAvto("Very good car but a little expensive")
                 //.addPhotosAvto("Lamborghini_Diablo")
                 .addPhotosAvto("C:/Users/IMT - Teilnehmer/Diablo.JPG")

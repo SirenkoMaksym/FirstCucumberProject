@@ -33,10 +33,11 @@ public class LetCarWorkPageSteps {
                 .selectFuel("Hybrid")
                 .enterSeats("7")
                 .enterClassAvto("S")
-                .enterNumberAvto("AH7775EX")
+                .enterNumberAvto("AH7774EX")
                 .enterPrice("599.999.00€")
                 .enterAboutAvto("Very good car but a little expensive")
-                .addPhotosAvto("Lamborghini_Diablo")
+                //.addPhotosAvto("Lamborghini_Diablo")
+                .addPhotosAvto("C:/Users/IMT - Teilnehmer/Diablo.JPG")
                 ;
     }
     @And("User clicks on Submit button")
